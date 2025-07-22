@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+ul li{
+    list-style: none;
+}
+/* header section start */
+.navbar{
+    background-color: rgba(168, 116, 116, 0.468);
+}
+.navbar ul li a{
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: #fff;
+}
+.navbar nav ul + ul li:last-child a{
+    background-color: #f00870;
+}
+/* header section end */
+
+/* hero section start */
+.hero{
+    height: 600px;
+    background-image: url(../images/bg\ fabric.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.hero .hero-content{
+    left: 0;
+    color: #fff;
+    justify-content: flex-end;
+}
+.hero .hero-content h1{
+  font-size: 52px;
+  font-weight: 800;
+}
+.hero .hero-content .btn a:first-child {
+  padding: 1rem 1.5rem;
+  margin-right: 5px;
+  background-color: #da2961;
+  color: #fff;
+  font-weight: 700;
+}
+.hero .hero-content .btn a:last-child {
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  color: #da2961;
+  font-weight: 700;
+}
+/* hero section end */
+
+/* about section start */
+.about{
+    height: 400px;
+    position: relative;
+}
+.item1{
+    padding: 10px;
+   width: 600px; 
+   border-radius: 10px;
+}
+.item2{
+   width: 200px; 
+   border-radius: 10px;
+   transform: translate(550px , -300px);
+}
+.item3{
+   width: 300px; 
+   border: 5px solid #fff;
+   border-radius: 10px;
+   transform: translate(-60px , -250px);
+}
+.item4{
+   width: 250px; 
+   border-radius: 10px;
+   transform: translate(150px , -60px);
+}
+/* about section end */
